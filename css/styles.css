@@ -1738,6 +1738,19 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding-bottom: 30px
+}
+
+.logo img {
+  max-width: 100%; /* La imagen ocupará el ancho máximo del div */
+  max-height: 100%; /* La imagen ocupará la altura máxima del div */
+}
+
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
@@ -10878,7 +10891,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #198754;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
